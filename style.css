@@ -100,7 +100,19 @@ button{
     background-color: black;
     color: white;
 }
-.cmpt{
-    background-color: blue;
+/*Compétences*/
+
+.competences{
+   
+    background-color: #A3D5A1;
+    margin: auto;
+    width: 80%;
+    border-radius: 30px;
     text-align: center;
+    padding: 50px;
+
+}
+.cmpt{
+    display: flex;
+   justify-content: space-around;
 }
