@@ -104,13 +104,13 @@ button{
 
 .competences{
    
-    background-color: #A3D5A1;
+    background-color: red;
     margin: auto;
     width: 80%;
     border-radius: 30px;
     text-align: center;
     padding: 50px;
-
+    color: white;
 }
 .cmpt{
     display: flex;
