@@ -104,3 +104,22 @@ button{
     background-color: blue;
     text-align: center;
 }
+
+/*pieds de page*/
+footer{
+    background-color:red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+}
+footer p{
+    color: white;
+}
+.icons a {
+    color: white;
+    
+}
+.icons{
+    margin-top: 15px;
+    margin-right: 15px;
+}
