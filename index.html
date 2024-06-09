@@ -1,72 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio personae</title>
-    <link rel="stylesheet" href="style.css">
+    <title>BabacarYadePortfolio</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-
 </head>
-
 <body>
-    <!--debut header-->
+    <!--En tête-->
     <header>
-        
-        <img class="didi"src="logosimplon.png" alt="logo">
-        <h1>Bienvenue sur le porfolio du P2</h1>
         <nav>
+            <h1><a href="#apropos">Babacar Yade</a></h1>
             <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Projet</a></li>
-                <li><a href="#">Compétences</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="">Accueil</a></li>
+                <li><a href="#mesprojets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-    </header>
-    <!--fin header-->
-    <!--debut de la description-->
-    <section>
-        <div class="pic">
-            <div class="text">
-            <h2>BIENVENUE SUR P2</h2>
-                <p>
-                    Bienvenue dans le portfolio de la P2 Ref dig Pikine. <br> Cette promo comprend 38 apprenants et 2 super coach pour nous accompagner. Nous avons démarrer notre formation le 14 mai 2024. <br> Et nous sommes appelés à développer des compétences telles que la création de sites web, la gestion de projet... <a class="dingue" href="#">A Suivre</a>
-                </p>
+    </header> <br><br><br><br><br>
+ <!--À propos de moi-->
+    <section id="apropos" class="apropos">
+        <div>
+             <h2 >À propos de moi</h2>
+            <p>Je m'appelle Babacar Yade et je suis actuellement<br> 
+                 en formation pour devenir Référent Digital. <br>
+                 Passionné par le monde numérique,<br>
+                 je m'efforce de comprendre et de  <br>
+                 maîtriser les outils et stratégies <br>
+                 qui façonnent notre avenir digital.</p>
         </div>
+        <img class="maphoto" src="images/paps.JPG" alt="ma photo">
+    </section>  <br><br><br>
+    <hr class="ligne1"> <br> <br>
+    <!--Projets--> 
+    <section id="mesprojets">
+        <h2>Projets</h2>
+        <div class="projet">
+          <div class="prj">
+            <img src="images/Set setal.jpg" alt="" class="">
+            <p>J'ai réalisé un projet de nettoyage de notre cité en organisant des ramassages d'ordures, <br>
+                 des balayages et en installant des poubelles publiques <br>
+                  pour réduire les déchets et maintenir la propreté.</p>
+          </div>         
+       
+          <div class="prj">
+            <img src="images/Don de sang.jpeg" alt="">
+                <p>J'ai cordonné une campagne de sensibilisation sur l'importance du don de sang,<br>
+                 mettant en avant des affiches créatives et informatives. <br> 
+                 Mon engagement a encouragé la participation active de la communauté, <br>
+                augmentant ainsi les stocks de sang et sauvegardant des vies.</p>
+          </div>       
 
-    </section> <br><br>
-
-    <!--fin de la description -->
-
-    <!--debut projet-->
-    <section class="projets">
-        <h2 class="pro">Projets</h2>
-        <p class="paragraphe"><marquee>Voici nos projets</marquee></p> <br>
-        <div class="bloc">
-            <div class="bloc1">
-                <h1>Création d'un site web</h1>
-                <p>Nous développons un site web grâce à html et css...</p><br>
-                <button>A suivre</button>
-            </div>
-            <div class="bloc2">
-                <h1>Design</h1>
-                <p>Nous faisons des designs adapter à la mode</p><br>
-                <button>A suivre</button>
-
-            </div>
-            <div class="bloc3">
-                <h1>Marketing digital</h1>
-                <p>Nous aidons les entreprises à avoir plus de visibilité sur le marché</p><br>
-                <button>A suivre</button>
-
-            </div>
-
+          <div class="prj">
+            <img src="images/Affiche (1).jpeg" alt=""> 
+                <p>J'ai conçu des affiches percutantes et mené des visites de porte-à-porte <br>
+                 pour une campagne électorale, aboutissant à la victoire de notre candidat. <br>
+                  Notre stratégie a mobilisé les électeurs et consolidé leur soutien,<br>
+                 assurant ainsi un résultat positif lors des élections.</p>   
+          </div>
+          
         </div>
-    </section><br><br><br>
+    </section> <br><br><br>
+    <hr><br><br><br>
     <!--Compétences-->
     <section id="competences" class="competences">
-        <h2>Compétences</h2><br><br>
+        <h2>Compétences</h2>
         <div class="cmpt">
             <p>HTML et CSS</p>
             <p >Google Workspace</p>
@@ -76,11 +76,12 @@
             <p >travail d'équipe</p>
        </div>
     </section><br><br><br>
-       <!--Contact-->
-       <section id="contact" class="contact">
+    <hr><br><br><br>
+    <!--Contact-->
+    <section id="contact" class="contact">
         <div>
-            <h2>Contactez nous</h2>
-            <img class="image" src="Email.svg" alt="" href="">
+            <h2>Contactez moi</h2>
+            <img class="image" src="images/Email.svg" alt="" href="x.com">
         </div>
         <fieldset>
             <form action="">
@@ -91,25 +92,20 @@
             </form>
         </fieldset>
     </section> <br><br><br>
-
-
-    </section>
- 
-    
-        <!--pieds de page-->
-        <footer>
+    <!--pieds de page-->
+    <footer>
         
-            <p>&copy; 2024 P2 form'emploi. Tous droits réservés.</p>
-            <div class="icons">
-                <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="https://x.com" target="_blank"><i class="fa fa-twitter"></i></a>
-                <a href="https://fr.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
-                <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+        <p>&copy; 2024 Babacar Yade. Tous droits réservés.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://x.com/PapsYade" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://fr.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/papscri/" target="_blank"><i class="fa fa-instagram"></i></a>
+
+        </div>
     
-            </div>
-        
-    
-        </footer>
+
+    </footer>
 
 </body>
 </html>
